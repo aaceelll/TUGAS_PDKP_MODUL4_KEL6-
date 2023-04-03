@@ -21,7 +21,7 @@ class MainProgramGame:
                 print("Terima kasih telah bermain!")
                 break
             else:
-                print("Menu tidak tersedia!")
+                print("Menu tidak tersedia")
                 continue
 
 if _name_ == "_main_":
