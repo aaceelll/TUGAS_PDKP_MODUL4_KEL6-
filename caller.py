@@ -6,7 +6,7 @@ class SubProgramGame:
     
     def play(self):
         print("Selamat datang di Game Tebak Brand!")
-        jawaban = input('Apakah kamu siap bermain? (ya/tidak): ')
+        jawaban = input('Apakah kamu shap bermain? (ya/tidak): ')
         if jawaban.lower() == 'ya':
             self.question("Darimana kah brand ternama Prada dibuat? ", "itali")
             self.question("Pada umumnya, bahan utama yang digunakan pada brand sepatu Dr.Martens adalah? ", "kulit")
